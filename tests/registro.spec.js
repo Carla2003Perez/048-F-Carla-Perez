@@ -13,7 +13,7 @@ test("Registro de nuevo usuario en Buggy Cars", async ({ page }) => {
   const username = `Renee10${timestamp}`;
   console.log(username);
 
- 
+
   await page.fill("#username", username);
   await page.fill("#firstName", "Renee");
   await page.fill('#lastName', 'Suriano');
