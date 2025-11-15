@@ -7,7 +7,8 @@
     "test:headed":"npx playwright test --headed",
     "test:uri":"npx playwright test --ui",
     "test:example":"npx playwright test tests/example.spec.ts",
-    "test:example:headed":"npx playwright test tests/example.spec.ts --headed"},
+    "test:example:headed":"npx playwright test tests/example.spec.ts --headed"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
